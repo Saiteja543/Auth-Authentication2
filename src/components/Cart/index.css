@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.cart-image {
+  height: 220px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-image {
+    height: 320px;
+    width: 200px;
+  }
+}
+
+.cart-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 52px;
+  }
+}

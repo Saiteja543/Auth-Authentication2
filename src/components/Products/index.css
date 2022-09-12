@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.product-image {
+  height: 220px;
+  width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-image {
+    height: 320px;
+    width: 280px;
+  }
+}
+
+.product-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .product-heading {
+    font-size: 45px;
+  }
+}
